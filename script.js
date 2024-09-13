@@ -31,13 +31,13 @@ function calculateAgeCurrent() {
     //     document.getElementById('currentAgeResult').innerText = `You are ${age} years old.`;
     //
     let age = year - birthDate;
-    document.getElementById('currentAgeResult').innerText =`YEAR = ${age}` ;
+    document.getElementById('currentAgeResult').innerText =`Congratulations Year  ${age}` ;
 
     let agemonth = month - birthmonth;
-    document.getElementById('Currentmonth').innerText = `MONTH = ${agemonth}`;
+    document.getElementById('Currentmonth').innerText = `Month  ${agemonth}`;
 
     let ageday = day - birthday;
-    document.getElementById('currentday').innerText =   `DAYS= ${ageday}`;
+    document.getElementById('currentday').innerText =    `Days ${ageday}`;
 
 
 
@@ -56,14 +56,14 @@ function calculateAgeGiven() {
     const birthyear2 = document.getElementById('years2').value;
 
     let finalmonth = birthmonth2 - birthmonth1;
-    document.getElementById('givenAgeResultmonth').innerText = `month = ${finalmonth}`;
+    document.getElementById('givenAgeResultmonth').innerText = ` Congratulations Month ${finalmonth}`;
 
     let finalyear = birthyear2 - birthyear1;
-    document.getElementById('givenAgeResultyear').innerText = `YEAR = ${finalyear}`;
+    document.getElementById('givenAgeResultyear').innerText = `Year ${finalyear}`;
 
 
     let finalday = birthdays2 - birthdays1;
-    document.getElementById('givenAgeResultdays').innerText = `DAYS = ${finalday}`;
+    document.getElementById('givenAgeResultdays').innerText = `Days ${finalday}`;
 
 
 
