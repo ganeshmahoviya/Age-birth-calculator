@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.age-calculator {
+    margin-bottom: 30px;
+   
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+#months{
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+}
+#days{
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+}
+#years{
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+}
+#secand-class{
+    margin-top: 20px;
+}
+
+
+#months1{
+    margin-top: 10px;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+
+#days1{
+    margin-top: 10px;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+#years1{
+    margin-top: 10px;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+#months2{
+    margin-top: 10px;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+#days2{
+    margin-top: 10px;
+    width: 55px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+#years2{
+    margin-top: 10px;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+
+}
