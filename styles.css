@@ -140,5 +140,7 @@ p {
     width: 80px;
     height: 28px;
     border-radius: 5px;
-
+}
+.inline{
+    display: inline-block;
 }
